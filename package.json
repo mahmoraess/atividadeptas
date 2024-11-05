@@ -1,0 +1,19 @@
+{
+  "name": "atividadeptas",
+  "version": "1.0.0",
+  "description": "- Middleware de Autenticação/Autorização: Verifica se o usuário tem permissões para acessar uma rota.\r - Middleware de Logging: Registra detalhes das requisições, como URL, método HTTP, data e hora, ajudando na auditoria e no monitoramento.\r - Middleware de Manipulação de Erros: Captura erros e responde com mensagens de erro formatadas.\r - Middleware de Validação: Verifica se os dados das requisições estão corretos antes de serem processados.\r - Middleware de Cache: Armazena dados temporários para acelerar respostas em requisições repetidas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
